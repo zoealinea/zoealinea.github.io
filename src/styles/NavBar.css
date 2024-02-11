@@ -6,6 +6,16 @@
     width: 100%;
     background-color: #e7d2e6;
     padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-brand {
+    margin-left: 20px;
+    color: rgb(130, 133, 177);
+    font-weight: bold;
+    font-size: 20px;
   }
   
   .navbar-nav {
@@ -36,4 +46,7 @@
     align-items: center;
     font-size: 32px;
   }
-  
+
+  .navbar-icons {
+    margin-right: 20px;
+  }
