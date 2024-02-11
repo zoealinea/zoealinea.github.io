@@ -39,9 +39,42 @@ const NavBar = () => {
         {/* Add more list items for additional sections */}
       </ul>
       <div className="navbar-icons">
-        <TbBrandGithubFilled color="#8285B1" size={25} style={{ marginRight: '10px', marginTop: '10px' }} />
-        <CiLinkedin color="#8285B1" size={25} style={{ marginRight: '10px', marginTop: '10px' }} />
-        <HiOutlineMail color="#8285B1" size={25} style={{ marginRight: '10px', marginTop: '10px' }} />
+        <TbBrandGithubFilled 
+          color="#8285B1" 
+          size={25} 
+          className="cursor-pointer" // removed Tailwind classes
+          style={{ 
+            marginRight: '10px', 
+            marginTop: '10px', 
+            transition: 'transform 0.2s', // added transition property
+          }} 
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
+        />
+        <CiLinkedin 
+          color="#8285B1" 
+          size={25} 
+          className="cursor-pointer" // removed Tailwind classes
+          style={{ 
+            marginRight: '10px', 
+            marginTop: '10px', 
+            transition: 'transform 0.2s', // added transition property
+          }} 
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
+        />
+        <HiOutlineMail 
+          color="#8285B1" 
+          size={25} 
+          className="cursor-pointer" // removed Tailwind classes
+          style={{ 
+            marginRight: '10px', 
+            marginTop: '10px', 
+            transition: 'transform 0.2s', // added transition property
+          }} 
+          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
+          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
+        />
       </div>
     </nav>
   );
