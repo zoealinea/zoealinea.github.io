@@ -1,7 +1,7 @@
-<h1 align="center">:white_flower: zoealinea.github.io :white_flower:</h1>
+<h1 align="center">:white_flower: zoealinea.github.io - work in progress :white_flower:</h1>
 
 <p align="center">
-  <img src="https://github.com/zoealinea/zoealinea.github.io/assets/96972217/abb0b844-d8e8-44e1-81c6-b807d0423026" alt="Zoe's Banner"/>
+  <img src="https://github.com/zoealinea/zoealinea.github.io/assets/96972217/4ad3b227-323b-4340-a21f-e050eee6798f" alt="Zoe's Banner"/>
 </p>
 
 <p align="center">Zoe Alinea's Online Portfolio Made with React</p>
@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## 🛠 project set-up
 
-To install all dependencies necessary for running the application, navigate to the project's main directory and run:
+To install all dependencies necessary for running this application, navigate to the project's main directory and run:
 
    ```sh
    npm install
@@ -33,6 +33,16 @@ You may also see any lint errors in the console.
    ```sh
    npm run build
    ```
+2. To deploy to gh-pages
 
+   ```sh
+   npm run deploy
+   ```
+
+   or tag a deployment message
+
+   ```sh
+   npm run deploy -- -m "Deploy React app to GitHub Pages"
+   ```
 
 ## 🎨 color codes
