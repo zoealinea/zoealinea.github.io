@@ -5,7 +5,8 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #e7d2e6;
+    /* background-color: #e7d2e6; */
+    background-color: #C3C1AB;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -14,7 +15,7 @@
   
   .navbar-brand {
     margin-left: 20px;
-    color: rgb(130, 133, 177);
+    background-color: #C3C1AB;
     font-weight: bold;
     font-size: 20px;
   }
@@ -25,6 +26,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
+    background-color: #C3C1AB;
   }
   
   .nav-item {
@@ -34,10 +36,11 @@
   .nav-link {
     background: none;
     border: none;
-    color: rgb(130, 133, 177);
+    color: #AE887B;
     font-weight: bold;
     font-size: 20px;
     cursor: pointer;
+    background-color: #C3C1AB;
   }
   
   .section {
@@ -50,4 +53,5 @@
 
   .navbar-icons {
     margin-right: 20px;
+    background-color: #C3C1AB;
   }

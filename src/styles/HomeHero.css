@@ -1,0 +1,29 @@
+.large-text {
+    font-size: 75px;
+}
+
+.me {
+    color: #5E5946;
+}
+
+.large-cursor::after {
+    content: "|"; /* Custom cursor character */
+    font-size: 75px; /* Adjust the font size of the cursor */
+    font-weight: bold;
+    color: #5E5946; /* Color of the cursor */
+    animation: blink 2s infinite; /* Blink animation */
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+  
+  

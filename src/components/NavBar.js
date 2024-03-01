@@ -1,9 +1,10 @@
 // NavBar.js
 import React from 'react';
 import '../styles/NavBar.css';
-import { TbBrandGithubFilled } from "react-icons/tb";
-import { CiLinkedin } from "react-icons/ci";
-import { HiOutlineMail } from "react-icons/hi";
+import MailIcon from './MailIcon';
+import LinkedInIcon from './LinkedInIcon';
+import GitHubIcon from './GitHubIcon';
+
 
 const NavBar = () => {
   const scrollToSection = (id) => {
@@ -39,42 +40,9 @@ const NavBar = () => {
         {/* Add more list items for additional sections */}
       </ul>
       <div className="navbar-icons">
-        <TbBrandGithubFilled 
-          color="#8285B1" 
-          size={25} 
-          className="cursor-pointer" // removed Tailwind classes
-          style={{ 
-            marginRight: '10px', 
-            marginTop: '10px', 
-            transition: 'transform 0.2s', // added transition property
-          }} 
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
-          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
-        />
-        <CiLinkedin 
-          color="#8285B1" 
-          size={25} 
-          className="cursor-pointer" // removed Tailwind classes
-          style={{ 
-            marginRight: '10px', 
-            marginTop: '10px', 
-            transition: 'transform 0.2s', // added transition property
-          }} 
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
-          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
-        />
-        <HiOutlineMail 
-          color="#8285B1" 
-          size={25} 
-          className="cursor-pointer" // removed Tailwind classes
-          style={{ 
-            marginRight: '10px', 
-            marginTop: '10px', 
-            transition: 'transform 0.2s', // added transition property
-          }} 
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'translateY(-3px)'} // added hover effect
-          onMouseLeave={(e) => e.currentTarget.style.transform = 'translateY(0)'} // reset on mouse leave
-        />
+        <GitHubIcon/>
+        <LinkedInIcon/>
+        <MailIcon/>
       </div>
     </nav>
   );
