@@ -1,0 +1,75 @@
+/* Experience.css */
+
+.experience-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 5%;
+}
+
+.tab {
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  color: #333;
+  font-size: medium;
+}
+
+.tab:hover {
+  background-color: #5E5946;
+  color: #F0DED0
+}
+
+.tab.active {
+  background-color: #C3C1AB;
+  color: #fff;
+}
+
+.tab.active::after {
+  content: ' ▸';
+  color: #fff;
+}
+
+.job-details {
+  flex: 3;
+  padding: 20px;
+  text-align: left;
+  margin-left: 25%;
+}
+
+.job-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  white-space: nowrap; /* Prevent wrapping */
+  overflow-wrap: break-word; /* Allow wrapping only when necessary */
+}
+
+.job-details p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .tabs {
+    position: relative; /* Remove absolute positioning */
+    left: auto; /* Reset left positioning */
+    margin-bottom: 20px; /* Add margin to create space between tabs and job details */
+  }
+
+  .job-details {
+    margin-left: 5%; /* Adjust margin for job details */
+  }
+}

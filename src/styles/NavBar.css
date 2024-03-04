@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    z-index: 999; /* Set z-index to a high value */
   }
   
   .navbar-brand {
@@ -54,4 +55,10 @@
   .navbar-icons {
     margin-right: 20px;
     background-color: #C3C1AB;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .navbar-nav {
+      display: none; /* Hide navigation items */
+    }
   }

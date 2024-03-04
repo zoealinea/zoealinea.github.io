@@ -1,9 +1,17 @@
+.parent {
+    display: inline-block;
+}
+
 .large-text {
     font-size: 75px;
 }
 
 .me {
     color: #5E5946;
+}
+
+.large-cursor {
+    height:200px;
 }
 
 .large-cursor::after {
@@ -25,5 +33,3 @@
       opacity: 0;
     }
   }
-  
-  
