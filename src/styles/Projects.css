@@ -1,0 +1,69 @@
+/* Projects.css */
+.Projects {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .ProjectTile {
+    background-color: #C3C1AB;
+    border-radius: 10px;
+    padding: 20px;
+    width: 30%;
+    text-align: center;
+    position: relative; /* Ensure the container is positioned */
+    transition: transform 0.2s, box-shadow 0.2s;
+    height: 250px; /* Adjust the height as needed */
+  }
+  
+  .ProjectTile:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ProjectTile h3,
+  .ProjectTile p {
+    margin: 0;
+    padding: 0;
+    background-color: #C3C1AB; /* Match the tile background color */
+  }
+  
+  .ProjectTile h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .ProjectTile p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .ProjectTile a {
+    position: absolute; /* Position the anchor relative to the tile */
+    bottom: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    color: #333;
+    text-decoration: none;
+    width: 50px; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    padding: 10px; /* Adjust padding to center the icon */
+    border-radius: 50%;
+    transition: background-color 0.2s, box-shadow 0.2s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .ProjectTile a:hover {
+    color: #000;
+    /* background-color: #e0e0e0; */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .ProjectTile a .github-icon {
+    background-color: #C3C1AB; /* Ensuring the icon container has the same background color */
+    border-radius: 50%;
+  }
+  

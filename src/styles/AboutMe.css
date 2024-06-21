@@ -1,0 +1,24 @@
+/* AboutMe.css */
+.AboutMe {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .AboutMe img {
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 200px;
+    height: auto;
+  }
+  
+  .AboutMe p {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 14px;
+    max-width: 600px;
+  }
+  
