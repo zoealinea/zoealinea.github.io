@@ -3,7 +3,7 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 class MailIcon extends React.Component {
   handleClick = () => {
-    window.location.href = 'mailto:your.email@example.com';
+    window.location.href = 'mailto:zoealinea@gmail.com';
   };
 
   render() {

@@ -5,7 +5,7 @@ import { ReactTyped } from 'react-typed';
 const HomeHero = () => {
   return (
     <div className='parent'>
-      <div className="large-cursor"> {/* Apply the large-cursor class */}
+      <div className="large-cursor"> {/* apply large-cursor class */}
         <ReactTyped
           strings={[
             "<strong><span class='large-text'>hi i'm <span class='me'>zoe</span></span></strong>",
@@ -15,7 +15,7 @@ const HomeHero = () => {
           typeSpeed={95}
           backSpeed={40}
           loop
-          cursorChar={null} // Hide the original cursor provided by ReactTyped
+          cursorChar={null} // hide original cursor provided by ReactTyped library
         />
       </div>
     </div>

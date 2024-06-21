@@ -1,5 +1,3 @@
-/* NavBar.css */
-
 .navbar {
     position: fixed;
     top: 0;
@@ -11,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    z-index: 999; /* Set z-index to a high value */
+    z-index: 999; /* set z-index to high value */
   }
   
   .navbar-brand {
@@ -59,6 +57,6 @@
 
   @media only screen and (max-width: 768px) {
     .navbar-nav {
-      display: none; /* Hide navigation items */
+      display: none; /* hide navigation items */
     }
   }

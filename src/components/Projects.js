@@ -1,4 +1,3 @@
-// Projects.js
 import React from 'react';
 import '../styles/Projects.css';
 import { FaGithub } from 'react-icons/fa';
@@ -12,7 +11,7 @@ const Projects = () => {
     },
     {
       title: 'zoealinea.github.io',
-      description: 'My personal website portfolio project.',
+      description: 'My personal website engineering portfolio project. * Still a work in progress! *',
       githubLink: 'https://github.com/zoealinea/zoealinea.github.io'
     },
     {

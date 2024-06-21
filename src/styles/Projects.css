@@ -1,4 +1,3 @@
-/* Projects.css */
 .Projects {
     display: flex;
     justify-content: space-around;
@@ -12,9 +11,9 @@
     padding: 20px;
     width: 30%;
     text-align: center;
-    position: relative; /* Ensure the container is positioned */
+    position: relative; /* ensure container is positioned */
     transition: transform 0.2s, box-shadow 0.2s;
-    height: 250px; /* Adjust the height as needed */
+    height: 250px; /* adjust height as needed */
   }
   
   .ProjectTile:hover {
@@ -26,7 +25,7 @@
   .ProjectTile p {
     margin: 0;
     padding: 0;
-    background-color: #C3C1AB; /* Match the tile background color */
+    background-color: #C3C1AB; /* match to tile background color */
   }
   
   .ProjectTile h3 {
@@ -41,14 +40,14 @@
   }
   
   .ProjectTile a {
-    position: absolute; /* Position the anchor relative to the tile */
-    bottom: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
+    position: absolute; /* position anchor relative to tile */
+    bottom: 10px; /* adjust as needed */
+    left: 10px; /* adjust as needed */
     color: #333;
     text-decoration: none;
-    width: 50px; /* Adjust width as needed */
-    height: 50px; /* Adjust height as needed */
-    padding: 10px; /* Adjust padding to center the icon */
+    width: 50px; /* adjust width as needed */
+    height: 50px; /* adjust height as needed */
+    padding: 10px; /* adjust padding to center icon */
     border-radius: 50%;
     transition: background-color 0.2s, box-shadow 0.2s;
     display: flex;
@@ -63,7 +62,7 @@
   }
   
   .ProjectTile a .github-icon {
-    background-color: #C3C1AB; /* Ensuring the icon container has the same background color */
+    background-color: #C3C1AB; /* ensuring icon container has same background color */
     border-radius: 50%;
   }
   
