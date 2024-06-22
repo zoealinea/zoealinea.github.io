@@ -1,22 +1,22 @@
-<h1 align="center">:white_flower: zoealinea.github.io - work in progress :white_flower:</h1>
+<h1 align="center">:ribbon: zoealinea.github.io - work in progress :ribbon:</h1>
 
 <p align="center">
   <img src="https://github.com/zoealinea/zoealinea.github.io/assets/96972217/4ad3b227-323b-4340-a21f-e050eee6798f" alt="Zoe's Banner"/>
 </p>
 
-<p align="center">Zoe Alinea's Online Portfolio Made with React</p>
+## <p align="center">Zoe Alinea's Online Portfolio Made with React</p>
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 🛠 project set-up
+## 🛠  project set-up
 
-To install all dependencies necessary for running this application, navigate to the project's main directory and run:
+To install all dependencies necessary for running this application, navigate to the project's main directory and run the following command:
 
    ```sh
    npm install
    ```
 
-To run the app in development mode, navigate to the project's main directory and run:
+To run the app in development mode (locally, after installing all dependencies), navigate to the project's main directory and run the following command:
    ```sh
    npm start
    ```
@@ -26,7 +26,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your local bro
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## 🚀 production build and run
+## 🚀  production build and run
 
 1. To generate a full static production build, navigate to the project's main directory and run:
 
