@@ -7,7 +7,7 @@
 }
 
 .me {
-    color: #5E5946;
+    color: #a78475;
 }
 
 .large-cursor {
@@ -18,7 +18,7 @@
     content: "|"; /* custom cursor character */
     font-size: 75px; /* adjust font size of cursor */
     font-weight: bold;
-    color: #5E5946; /* color of the cursor */
+    color: #000000; /* color of the cursor */
     animation: blink 2s infinite; /* blink animation */
   }
   
