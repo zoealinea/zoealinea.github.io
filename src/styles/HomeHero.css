@@ -1,9 +1,13 @@
 .parent {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center align horizontally */
 }
 
 .large-text {
     font-size: 75px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    color: #3c3c3c;
 }
 
 .me {
@@ -11,25 +15,34 @@
 }
 
 .large-cursor {
-    height:200px;
+    display: flex;
+    justify-content: flex-start; /* Align items to the left */
+    width: 100%; /* Ensure it takes full width */
+    height: 200px;
+    position: relative;
 }
 
 .large-cursor::after {
-    content: "|"; /* custom cursor character */
-    font-size: 75px; /* adjust font size of cursor */
+    content: "|"; /* Custom cursor character */
+    font-size: 75px; /* Adjust font size of cursor */
     font-weight: bold;
-    color: #000000; /* color of the cursor */
+    color: #3c3c3c; /* color of the cursor */
     animation: blink 2s infinite; /* blink animation */
   }
   
   @keyframes blink {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
     50% {
-      opacity: 1;
+        opacity: 1;
     }
     100% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
+}
+
+img {
+    width: 200px; /* Adjust width as needed */
+    margin-bottom: 20px; /* Space between image and animation */
+}

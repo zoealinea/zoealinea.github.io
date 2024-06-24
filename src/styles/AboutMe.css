@@ -1,28 +1,41 @@
 .AboutMe {
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    font-family: Arial, sans-serif;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .AboutMe img {
-    border-radius: 10%;
-    margin-right: 20px;
-    width: 200px;
-    height: auto;
-  }
-  
-  .AboutMe p {
-    margin: 0;
-    line-height: 1.5;
-    font-size: 14px;
-    max-width: 600px;
-  }
-  
-  .highlight {
-    color: #68836a;
-    font-weight: bolder;
-    font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: auto;
+}
+
+.AboutMe img {
+  border-radius: 10%;
+  margin-right: 20px;
+  width: 250px;
+  height: auto;
+}
+
+.AboutMe div {
+  max-width: 600px;
+}
+
+.AboutMe p {
+  line-height: 1.5;
+  font-size: 18px;
+  margin: 0 0 20px 0; /* Add margin to create space between paragraphs */
+}
+
+.highlight {
+  color: #68836a;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.technologies {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-column, .right-column {
+  padding-left: 20px; /* Maintain padding for bullet points */
+  font-size: 18px;
 }

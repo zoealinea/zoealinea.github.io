@@ -1,11 +1,13 @@
 import '../styles/HomeHero.css';
 import React from 'react';
 import { ReactTyped } from 'react-typed';
+import smiski from '../images/smiski.png';
 
 const HomeHero = () => {
   return (
     <div className='parent'>
-      <div className="large-cursor"> {/* apply large-cursor class */}
+      <img src={smiski} alt="Coding Smiski" />
+      <div className="large-cursor">
         <ReactTyped
           strings={[
             "<strong><span class='large-text'>hi i'm <span class='me'>zoe</span></span></strong>",
